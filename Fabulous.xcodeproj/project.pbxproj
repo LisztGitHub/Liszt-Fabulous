@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF1E46B31DADEB8A0000CD29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1E46B21DADEB8A0000CD29 /* main.m */; };
+		FF1E46B61DADEB8A0000CD29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1E46B51DADEB8A0000CD29 /* AppDelegate.m */; };
+		FF1E46B91DADEB8A0000CD29 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1E46B81DADEB8A0000CD29 /* ViewController.m */; };
+		FF1E46BC1DADEB8A0000CD29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF1E46BA1DADEB8A0000CD29 /* Main.storyboard */; };
+		FF1E46BE1DADEB8A0000CD29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF1E46BD1DADEB8A0000CD29 /* Assets.xcassets */; };
+		FF1E46C11DADEB8A0000CD29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF1E46BF1DADEB8A0000CD29 /* LaunchScreen.storyboard */; };
+		FF1E46CC1DADEB8A0000CD29 /* FabulousTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1E46CB1DADEB8A0000CD29 /* FabulousTests.m */; };
+		FF1E46D71DADEB8A0000CD29 /* FabulousUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1E46D61DADEB8A0000CD29 /* FabulousUITests.m */; };
+		FF1E46E51DADEBBF0000CD29 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = FF1E46E41DADEBBF0000CD29 /* bg.png */; };
+		FF1E46E91DAE03CB0000CD29 /* UIView+Zam.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1E46E81DAE03CB0000CD29 /* UIView+Zam.m */; };
+		FF1E46EF1DAE06360000CD29 /* UIImage+TintColor.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1E46EE1DAE06360000CD29 /* UIImage+TintColor.m */; };
+		FF1E46F11DAE073B0000CD29 /* zam.png in Resources */ = {isa = PBXBuildFile; fileRef = FF1E46F01DAE073B0000CD29 /* zam.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF1E46C81DADEB8A0000CD29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF1E46A61DADEB8A0000CD29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF1E46AD1DADEB8A0000CD29;
+			remoteInfo = Fabulous;
+		};
+		FF1E46D31DADEB8A0000CD29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF1E46A61DADEB8A0000CD29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF1E46AD1DADEB8A0000CD29;
+			remoteInfo = Fabulous;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF1E46AE1DADEB8A0000CD29 /* Fabulous.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fabulous.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF1E46B21DADEB8A0000CD29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF1E46B41DADEB8A0000CD29 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF1E46B51DADEB8A0000CD29 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF1E46B71DADEB8A0000CD29 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FF1E46B81DADEB8A0000CD29 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF1E46BB1DADEB8A0000CD29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF1E46BD1DADEB8A0000CD29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF1E46C01DADEB8A0000CD29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF1E46C21DADEB8A0000CD29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF1E46C71DADEB8A0000CD29 /* FabulousTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FabulousTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF1E46CB1DADEB8A0000CD29 /* FabulousTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FabulousTests.m; sourceTree = "<group>"; };
+		FF1E46CD1DADEB8A0000CD29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF1E46D21DADEB8A0000CD29 /* FabulousUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FabulousUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF1E46D61DADEB8A0000CD29 /* FabulousUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FabulousUITests.m; sourceTree = "<group>"; };
+		FF1E46D81DADEB8A0000CD29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF1E46E41DADEBBF0000CD29 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		FF1E46E71DAE03CB0000CD29 /* UIView+Zam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Zam.h"; sourceTree = "<group>"; };
+		FF1E46E81DAE03CB0000CD29 /* UIView+Zam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Zam.m"; sourceTree = "<group>"; };
+		FF1E46ED1DAE06360000CD29 /* UIImage+TintColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TintColor.h"; sourceTree = "<group>"; };
+		FF1E46EE1DAE06360000CD29 /* UIImage+TintColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TintColor.m"; sourceTree = "<group>"; };
+		FF1E46F01DAE073B0000CD29 /* zam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zam.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF1E46AB1DADEB8A0000CD29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF1E46C41DADEB8A0000CD29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF1E46CF1DADEB8A0000CD29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF1E46A51DADEB8A0000CD29 = {
+			isa = PBXGroup;
+			children = (
+				FF1E46B01DADEB8A0000CD29 /* Fabulous */,
+				FF1E46CA1DADEB8A0000CD29 /* FabulousTests */,
+				FF1E46D51DADEB8A0000CD29 /* FabulousUITests */,
+				FF1E46AF1DADEB8A0000CD29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF1E46AF1DADEB8A0000CD29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF1E46AE1DADEB8A0000CD29 /* Fabulous.app */,
+				FF1E46C71DADEB8A0000CD29 /* FabulousTests.xctest */,
+				FF1E46D21DADEB8A0000CD29 /* FabulousUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF1E46B01DADEB8A0000CD29 /* Fabulous */ = {
+			isa = PBXGroup;
+			children = (
+				FF1E46EC1DAE06360000CD29 /* UIImage+TintColor */,
+				FF1E46E61DAE03C00000CD29 /* UIView+Zam */,
+				FF1E46E41DADEBBF0000CD29 /* bg.png */,
+				FF1E46F01DAE073B0000CD29 /* zam.png */,
+				FF1E46B41DADEB8A0000CD29 /* AppDelegate.h */,
+				FF1E46B51DADEB8A0000CD29 /* AppDelegate.m */,
+				FF1E46B71DADEB8A0000CD29 /* ViewController.h */,
+				FF1E46B81DADEB8A0000CD29 /* ViewController.m */,
+				FF1E46BA1DADEB8A0000CD29 /* Main.storyboard */,
+				FF1E46BD1DADEB8A0000CD29 /* Assets.xcassets */,
+				FF1E46BF1DADEB8A0000CD29 /* LaunchScreen.storyboard */,
+				FF1E46C21DADEB8A0000CD29 /* Info.plist */,
+				FF1E46B11DADEB8A0000CD29 /* Supporting Files */,
+			);
+			path = Fabulous;
+			sourceTree = "<group>";
+		};
+		FF1E46B11DADEB8A0000CD29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF1E46B21DADEB8A0000CD29 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF1E46CA1DADEB8A0000CD29 /* FabulousTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF1E46CB1DADEB8A0000CD29 /* FabulousTests.m */,
+				FF1E46CD1DADEB8A0000CD29 /* Info.plist */,
+			);
+			path = FabulousTests;
+			sourceTree = "<group>";
+		};
+		FF1E46D51DADEB8A0000CD29 /* FabulousUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF1E46D61DADEB8A0000CD29 /* FabulousUITests.m */,
+				FF1E46D81DADEB8A0000CD29 /* Info.plist */,
+			);
+			path = FabulousUITests;
+			sourceTree = "<group>";
+		};
+		FF1E46E61DAE03C00000CD29 /* UIView+Zam */ = {
+			isa = PBXGroup;
+			children = (
+				FF1E46E71DAE03CB0000CD29 /* UIView+Zam.h */,
+				FF1E46E81DAE03CB0000CD29 /* UIView+Zam.m */,
+			);
+			path = "UIView+Zam";
+			sourceTree = "<group>";
+		};
+		FF1E46EC1DAE06360000CD29 /* UIImage+TintColor */ = {
+			isa = PBXGroup;
+			children = (
+				FF1E46ED1DAE06360000CD29 /* UIImage+TintColor.h */,
+				FF1E46EE1DAE06360000CD29 /* UIImage+TintColor.m */,
+			);
+			path = "UIImage+TintColor";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF1E46AD1DADEB8A0000CD29 /* Fabulous */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF1E46DB1DADEB8A0000CD29 /* Build configuration list for PBXNativeTarget "Fabulous" */;
+			buildPhases = (
+				FF1E46AA1DADEB8A0000CD29 /* Sources */,
+				FF1E46AB1DADEB8A0000CD29 /* Frameworks */,
+				FF1E46AC1DADEB8A0000CD29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fabulous;
+			productName = Fabulous;
+			productReference = FF1E46AE1DADEB8A0000CD29 /* Fabulous.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF1E46C61DADEB8A0000CD29 /* FabulousTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF1E46DE1DADEB8A0000CD29 /* Build configuration list for PBXNativeTarget "FabulousTests" */;
+			buildPhases = (
+				FF1E46C31DADEB8A0000CD29 /* Sources */,
+				FF1E46C41DADEB8A0000CD29 /* Frameworks */,
+				FF1E46C51DADEB8A0000CD29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF1E46C91DADEB8A0000CD29 /* PBXTargetDependency */,
+			);
+			name = FabulousTests;
+			productName = FabulousTests;
+			productReference = FF1E46C71DADEB8A0000CD29 /* FabulousTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF1E46D11DADEB8A0000CD29 /* FabulousUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF1E46E11DADEB8A0000CD29 /* Build configuration list for PBXNativeTarget "FabulousUITests" */;
+			buildPhases = (
+				FF1E46CE1DADEB8A0000CD29 /* Sources */,
+				FF1E46CF1DADEB8A0000CD29 /* Frameworks */,
+				FF1E46D01DADEB8A0000CD29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF1E46D41DADEB8A0000CD29 /* PBXTargetDependency */,
+			);
+			name = FabulousUITests;
+			productName = FabulousUITests;
+			productReference = FF1E46D21DADEB8A0000CD29 /* FabulousUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF1E46A61DADEB8A0000CD29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Liszt高级研发群:98787555";
+				TargetAttributes = {
+					FF1E46AD1DADEB8A0000CD29 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = WQ25C5R45W;
+						ProvisioningStyle = Automatic;
+					};
+					FF1E46C61DADEB8A0000CD29 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = WQ25C5R45W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF1E46AD1DADEB8A0000CD29;
+					};
+					FF1E46D11DADEB8A0000CD29 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = WQ25C5R45W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF1E46AD1DADEB8A0000CD29;
+					};
+				};
+			};
+			buildConfigurationList = FF1E46A91DADEB8A0000CD29 /* Build configuration list for PBXProject "Fabulous" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF1E46A51DADEB8A0000CD29;
+			productRefGroup = FF1E46AF1DADEB8A0000CD29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF1E46AD1DADEB8A0000CD29 /* Fabulous */,
+				FF1E46C61DADEB8A0000CD29 /* FabulousTests */,
+				FF1E46D11DADEB8A0000CD29 /* FabulousUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF1E46AC1DADEB8A0000CD29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF1E46F11DAE073B0000CD29 /* zam.png in Resources */,
+				FF1E46C11DADEB8A0000CD29 /* LaunchScreen.storyboard in Resources */,
+				FF1E46BE1DADEB8A0000CD29 /* Assets.xcassets in Resources */,
+				FF1E46E51DADEBBF0000CD29 /* bg.png in Resources */,
+				FF1E46BC1DADEB8A0000CD29 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF1E46C51DADEB8A0000CD29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF1E46D01DADEB8A0000CD29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF1E46AA1DADEB8A0000CD29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF1E46B91DADEB8A0000CD29 /* ViewController.m in Sources */,
+				FF1E46B61DADEB8A0000CD29 /* AppDelegate.m in Sources */,
+				FF1E46B31DADEB8A0000CD29 /* main.m in Sources */,
+				FF1E46E91DAE03CB0000CD29 /* UIView+Zam.m in Sources */,
+				FF1E46EF1DAE06360000CD29 /* UIImage+TintColor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF1E46C31DADEB8A0000CD29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF1E46CC1DADEB8A0000CD29 /* FabulousTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF1E46CE1DADEB8A0000CD29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF1E46D71DADEB8A0000CD29 /* FabulousUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF1E46C91DADEB8A0000CD29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF1E46AD1DADEB8A0000CD29 /* Fabulous */;
+			targetProxy = FF1E46C81DADEB8A0000CD29 /* PBXContainerItemProxy */;
+		};
+		FF1E46D41DADEB8A0000CD29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF1E46AD1DADEB8A0000CD29 /* Fabulous */;
+			targetProxy = FF1E46D31DADEB8A0000CD29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF1E46BA1DADEB8A0000CD29 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF1E46BB1DADEB8A0000CD29 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF1E46BF1DADEB8A0000CD29 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF1E46C01DADEB8A0000CD29 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF1E46D91DADEB8A0000CD29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF1E46DA1DADEB8A0000CD29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF1E46DC1DADEB8A0000CD29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WQ25C5R45W;
+				INFOPLIST_FILE = Fabulous/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Liszt-lz-163.com.Fabulous";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF1E46DD1DADEB8A0000CD29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WQ25C5R45W;
+				INFOPLIST_FILE = Fabulous/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Liszt-lz-163.com.Fabulous";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FF1E46DF1DADEB8A0000CD29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WQ25C5R45W;
+				INFOPLIST_FILE = FabulousTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Liszt-lz-163.com.FabulousTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fabulous.app/Fabulous";
+			};
+			name = Debug;
+		};
+		FF1E46E01DADEB8A0000CD29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WQ25C5R45W;
+				INFOPLIST_FILE = FabulousTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Liszt-lz-163.com.FabulousTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fabulous.app/Fabulous";
+			};
+			name = Release;
+		};
+		FF1E46E21DADEB8A0000CD29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = WQ25C5R45W;
+				INFOPLIST_FILE = FabulousUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Liszt-lz-163.com.FabulousUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Fabulous;
+			};
+			name = Debug;
+		};
+		FF1E46E31DADEB8A0000CD29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = WQ25C5R45W;
+				INFOPLIST_FILE = FabulousUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Liszt-lz-163.com.FabulousUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Fabulous;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF1E46A91DADEB8A0000CD29 /* Build configuration list for PBXProject "Fabulous" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF1E46D91DADEB8A0000CD29 /* Debug */,
+				FF1E46DA1DADEB8A0000CD29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF1E46DB1DADEB8A0000CD29 /* Build configuration list for PBXNativeTarget "Fabulous" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF1E46DC1DADEB8A0000CD29 /* Debug */,
+				FF1E46DD1DADEB8A0000CD29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF1E46DE1DADEB8A0000CD29 /* Build configuration list for PBXNativeTarget "FabulousTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF1E46DF1DADEB8A0000CD29 /* Debug */,
+				FF1E46E01DADEB8A0000CD29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF1E46E11DADEB8A0000CD29 /* Build configuration list for PBXNativeTarget "FabulousUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF1E46E21DADEB8A0000CD29 /* Debug */,
+				FF1E46E31DADEB8A0000CD29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF1E46A61DADEB8A0000CD29 /* Project object */;
+}
